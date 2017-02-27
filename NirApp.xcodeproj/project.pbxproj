@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BFE5E4B1E64292700D6B24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */; };
+		8BFE5E4D1E64292700D6B24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4C1E64292700D6B24D /* ViewController.swift */; };
+		8BFE5E501E64292700D6B24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4E1E64292700D6B24D /* Main.storyboard */; };
+		8BFE5E531E64292700D6B24D /* NirApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E511E64292700D6B24D /* NirApp.xcdatamodeld */; };
+		8BFE5E551E64292700D6B24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E541E64292700D6B24D /* Assets.xcassets */; };
+		8BFE5E581E64292700D6B24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */; };
+		8BFE5E631E64292700D6B24D /* NirAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E621E64292700D6B24D /* NirAppTests.swift */; };
+		8BFE5E6E1E64292700D6B24D /* NirAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E6D1E64292700D6B24D /* NirAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFE5E5F1E64292700D6B24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFE5E3F1E64292700D6B24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFE5E461E64292700D6B24D;
+			remoteInfo = NirApp;
+		};
+		8BFE5E6A1E64292700D6B24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFE5E3F1E64292700D6B24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFE5E461E64292700D6B24D;
+			remoteInfo = NirApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BFE5E471E64292700D6B24D /* NirApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NirApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFE5E4C1E64292700D6B24D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BFE5E4F1E64292700D6B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BFE5E521E64292700D6B24D /* NirApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NirApp.xcdatamodel; sourceTree = "<group>"; };
+		8BFE5E541E64292700D6B24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFE5E571E64292700D6B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BFE5E591E64292700D6B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFE5E5E1E64292700D6B24D /* NirAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NirAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFE5E621E64292700D6B24D /* NirAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirAppTests.swift; sourceTree = "<group>"; };
+		8BFE5E641E64292700D6B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFE5E691E64292700D6B24D /* NirAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NirAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFE5E6D1E64292700D6B24D /* NirAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirAppUITests.swift; sourceTree = "<group>"; };
+		8BFE5E6F1E64292700D6B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BFE5E441E64292700D6B24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E5B1E64292700D6B24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E661E64292700D6B24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BFE5E3E1E64292700D6B24D = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E491E64292700D6B24D /* NirApp */,
+				8BFE5E611E64292700D6B24D /* NirAppTests */,
+				8BFE5E6C1E64292700D6B24D /* NirAppUITests */,
+				8BFE5E481E64292700D6B24D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFE5E481E64292700D6B24D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E471E64292700D6B24D /* NirApp.app */,
+				8BFE5E5E1E64292700D6B24D /* NirAppTests.xctest */,
+				8BFE5E691E64292700D6B24D /* NirAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BFE5E491E64292700D6B24D /* NirApp */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */,
+				8BFE5E4C1E64292700D6B24D /* ViewController.swift */,
+				8BFE5E4E1E64292700D6B24D /* Main.storyboard */,
+				8BFE5E541E64292700D6B24D /* Assets.xcassets */,
+				8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */,
+				8BFE5E591E64292700D6B24D /* Info.plist */,
+				8BFE5E511E64292700D6B24D /* NirApp.xcdatamodeld */,
+			);
+			path = NirApp;
+			sourceTree = "<group>";
+		};
+		8BFE5E611E64292700D6B24D /* NirAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E621E64292700D6B24D /* NirAppTests.swift */,
+				8BFE5E641E64292700D6B24D /* Info.plist */,
+			);
+			path = NirAppTests;
+			sourceTree = "<group>";
+		};
+		8BFE5E6C1E64292700D6B24D /* NirAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E6D1E64292700D6B24D /* NirAppUITests.swift */,
+				8BFE5E6F1E64292700D6B24D /* Info.plist */,
+			);
+			path = NirAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BFE5E461E64292700D6B24D /* NirApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFE5E721E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirApp" */;
+			buildPhases = (
+				8BFE5E431E64292700D6B24D /* Sources */,
+				8BFE5E441E64292700D6B24D /* Frameworks */,
+				8BFE5E451E64292700D6B24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NirApp;
+			productName = NirApp;
+			productReference = 8BFE5E471E64292700D6B24D /* NirApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFE5E5D1E64292700D6B24D /* NirAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFE5E751E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppTests" */;
+			buildPhases = (
+				8BFE5E5A1E64292700D6B24D /* Sources */,
+				8BFE5E5B1E64292700D6B24D /* Frameworks */,
+				8BFE5E5C1E64292700D6B24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFE5E601E64292700D6B24D /* PBXTargetDependency */,
+			);
+			name = NirAppTests;
+			productName = NirAppTests;
+			productReference = 8BFE5E5E1E64292700D6B24D /* NirAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BFE5E681E64292700D6B24D /* NirAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFE5E781E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppUITests" */;
+			buildPhases = (
+				8BFE5E651E64292700D6B24D /* Sources */,
+				8BFE5E661E64292700D6B24D /* Frameworks */,
+				8BFE5E671E64292700D6B24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFE5E6B1E64292700D6B24D /* PBXTargetDependency */,
+			);
+			name = NirAppUITests;
+			productName = NirAppUITests;
+			productReference = 8BFE5E691E64292700D6B24D /* NirAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFE5E3F1E64292700D6B24D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Niraj;
+				TargetAttributes = {
+					8BFE5E461E64292700D6B24D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					8BFE5E5D1E64292700D6B24D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BFE5E461E64292700D6B24D;
+					};
+					8BFE5E681E64292700D6B24D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BFE5E461E64292700D6B24D;
+					};
+				};
+			};
+			buildConfigurationList = 8BFE5E421E64292700D6B24D /* Build configuration list for PBXProject "NirApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BFE5E3E1E64292700D6B24D;
+			productRefGroup = 8BFE5E481E64292700D6B24D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFE5E461E64292700D6B24D /* NirApp */,
+				8BFE5E5D1E64292700D6B24D /* NirAppTests */,
+				8BFE5E681E64292700D6B24D /* NirAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BFE5E451E64292700D6B24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE5E581E64292700D6B24D /* LaunchScreen.storyboard in Resources */,
+				8BFE5E551E64292700D6B24D /* Assets.xcassets in Resources */,
+				8BFE5E501E64292700D6B24D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E5C1E64292700D6B24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E671E64292700D6B24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BFE5E431E64292700D6B24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE5E4D1E64292700D6B24D /* ViewController.swift in Sources */,
+				8BFE5E531E64292700D6B24D /* NirApp.xcdatamodeld in Sources */,
+				8BFE5E4B1E64292700D6B24D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E5A1E64292700D6B24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE5E631E64292700D6B24D /* NirAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFE5E651E64292700D6B24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE5E6E1E64292700D6B24D /* NirAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFE5E601E64292700D6B24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFE5E461E64292700D6B24D /* NirApp */;
+			targetProxy = 8BFE5E5F1E64292700D6B24D /* PBXContainerItemProxy */;
+		};
+		8BFE5E6B1E64292700D6B24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFE5E461E64292700D6B24D /* NirApp */;
+			targetProxy = 8BFE5E6A1E64292700D6B24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BFE5E4E1E64292700D6B24D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE5E4F1E64292700D6B24D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE5E571E64292700D6B24D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BFE5E701E64292700D6B24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BFE5E711E64292700D6B24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BFE5E731E64292700D6B24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NirApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8BFE5E741E64292700D6B24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NirApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8BFE5E761E64292700D6B24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NirAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NirApp.app/NirApp";
+			};
+			name = Debug;
+		};
+		8BFE5E771E64292700D6B24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NirAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NirApp.app/NirApp";
+			};
+			name = Release;
+		};
+		8BFE5E791E64292700D6B24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NirAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NirApp;
+			};
+			name = Debug;
+		};
+		8BFE5E7A1E64292700D6B24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NirAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NirAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NirApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BFE5E421E64292700D6B24D /* Build configuration list for PBXProject "NirApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE5E701E64292700D6B24D /* Debug */,
+				8BFE5E711E64292700D6B24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFE5E721E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE5E731E64292700D6B24D /* Debug */,
+				8BFE5E741E64292700D6B24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BFE5E751E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE5E761E64292700D6B24D /* Debug */,
+				8BFE5E771E64292700D6B24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BFE5E781E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFE5E791E64292700D6B24D /* Debug */,
+				8BFE5E7A1E64292700D6B24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BFE5E511E64292700D6B24D /* NirApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BFE5E521E64292700D6B24D /* NirApp.xcdatamodel */,
+			);
+			currentVersion = 8BFE5E521E64292700D6B24D /* NirApp.xcdatamodel */;
+			path = NirApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BFE5E3F1E64292700D6B24D /* Project object */;
+}
