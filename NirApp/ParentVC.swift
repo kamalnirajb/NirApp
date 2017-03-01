@@ -1,18 +1,19 @@
 //
-//  ViewController.swift
+//  ParentVC.swift
 //  NirApp
 //
-//  Created by Niraj Kumar on 2/27/17.
+//  Created by Niraj Kumar on 2/28/17.
 //  Copyright © 2017 Niraj. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ParentVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func goBack(_ sender: UIBarButtonItem) {
+        _ = self.navigationController?.popViewController(animated: true)
+    }
 }
-

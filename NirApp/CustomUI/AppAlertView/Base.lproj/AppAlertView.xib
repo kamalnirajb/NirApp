@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MavenPro-Bold.ttf">
+            <string>MavenProBold</string>
+        </array>
+        <array key="MavenPro-Regular.ttf">
+            <string>MavenProRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppAlertView" customModule="NirApp" customModuleProvider="target">
+            <connections>
+                <outlet property="lblMessage" destination="dvb-Js-sFh" id="zdD-zy-iom"/>
+                <outlet property="lblTitle" destination="5kP-h5-ynh" id="iq6-fy-oxH"/>
+                <outlet property="scrlHeight" destination="3vD-wL-TGY" id="ydD-im-eK6"/>
+                <outlet property="scrlMessage" destination="eH7-Ad-OsQ" id="VdS-w4-nce"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewAlertBox" destination="iPp-TF-wkc" id="eTE-4f-Owc"/>
+                <outlet property="viewBoxHeight" destination="n9P-pF-LAK" id="8Ic-nY-bqo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iPp-TF-wkc">
+                    <rect key="frame" x="19" y="264" width="337" height="140"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44W-G5-dbD">
+                            <rect key="frame" x="0.0" y="0.0" width="337" height="44"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NirApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kP-h5-ynh">
+                                    <rect key="frame" x="0.0" y="14.5" width="337" height="16"/>
+                                    <fontDescription key="fontDescription" name="MavenProBold" family="Maven Pro" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="BcJ-JW-r5C"/>
+                                <constraint firstAttribute="trailing" secondItem="5kP-h5-ynh" secondAttribute="trailing" id="kGN-ST-qrj"/>
+                                <constraint firstItem="5kP-h5-ynh" firstAttribute="centerY" secondItem="44W-G5-dbD" secondAttribute="centerY" id="tVQ-85-asc"/>
+                                <constraint firstItem="5kP-h5-ynh" firstAttribute="leading" secondItem="44W-G5-dbD" secondAttribute="leading" id="x9y-dM-t1D"/>
+                            </constraints>
+                        </view>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eH7-Ad-OsQ">
+                            <rect key="frame" x="5" y="49" width="327" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgm-Al-YLl">
+                                    <rect key="frame" x="0.0" y="0.0" width="326" height="50"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvb-Js-sFh">
+                                            <rect key="frame" x="0.0" y="0.0" width="326" height="14"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="MavenProRegular" family="Maven Pro" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="dvb-Js-sFh" firstAttribute="leading" secondItem="dgm-Al-YLl" secondAttribute="leading" id="dhD-o7-PgJ"/>
+                                        <constraint firstItem="dvb-Js-sFh" firstAttribute="top" secondItem="dgm-Al-YLl" secondAttribute="top" id="e9l-E9-9Av"/>
+                                        <constraint firstAttribute="trailing" secondItem="dvb-Js-sFh" secondAttribute="trailing" id="rzH-ya-89w"/>
+                                        <constraint firstItem="dvb-Js-sFh" firstAttribute="centerX" secondItem="dgm-Al-YLl" secondAttribute="centerX" id="vNH-VF-JJF"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="3vD-wL-TGY"/>
+                                <constraint firstItem="dgm-Al-YLl" firstAttribute="centerY" secondItem="eH7-Ad-OsQ" secondAttribute="centerY" id="5lv-2w-L14"/>
+                                <constraint firstAttribute="trailing" secondItem="dgm-Al-YLl" secondAttribute="trailing" id="Euc-8G-4vX"/>
+                                <constraint firstItem="dgm-Al-YLl" firstAttribute="leading" secondItem="eH7-Ad-OsQ" secondAttribute="leading" id="fAx-bI-buN"/>
+                                <constraint firstItem="dgm-Al-YLl" firstAttribute="centerX" secondItem="eH7-Ad-OsQ" secondAttribute="centerX" id="i9z-Mh-p8J"/>
+                                <constraint firstAttribute="bottom" secondItem="dgm-Al-YLl" secondAttribute="bottom" id="nme-Qo-rdP"/>
+                                <constraint firstItem="dgm-Al-YLl" firstAttribute="top" secondItem="eH7-Ad-OsQ" secondAttribute="top" id="qOS-ET-a8O"/>
+                            </constraints>
+                        </scrollView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar3-2z-pEP">
+                            <rect key="frame" x="33" y="104" width="270" height="30"/>
+                            <color key="backgroundColor" red="0.70588237050000002" green="0.4196078479" blue="0.48235294220000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="OBw-EI-wS0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MavenProBold" family="Maven Pro" pointSize="16"/>
+                            <state key="normal" title="Ok">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnOkClicked:" destination="-1" eventType="touchUpInside" id="hBu-D7-Quf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eH7-Ad-OsQ" firstAttribute="leading" secondItem="iPp-TF-wkc" secondAttribute="leading" constant="5" id="3np-4g-3lO"/>
+                        <constraint firstItem="44W-G5-dbD" firstAttribute="centerX" secondItem="iPp-TF-wkc" secondAttribute="centerX" id="BIb-sg-6k1"/>
+                        <constraint firstItem="ar3-2z-pEP" firstAttribute="width" secondItem="iPp-TF-wkc" secondAttribute="width" multiplier="0.8" id="VTK-xb-R65"/>
+                        <constraint firstItem="eH7-Ad-OsQ" firstAttribute="top" secondItem="44W-G5-dbD" secondAttribute="bottom" constant="5" id="Ymv-ek-BXq"/>
+                        <constraint firstItem="ar3-2z-pEP" firstAttribute="top" secondItem="eH7-Ad-OsQ" secondAttribute="bottom" constant="5" id="bA6-bi-Y3V"/>
+                        <constraint firstItem="44W-G5-dbD" firstAttribute="top" secondItem="iPp-TF-wkc" secondAttribute="top" id="jWx-nJ-gdT"/>
+                        <constraint firstItem="ar3-2z-pEP" firstAttribute="centerX" secondItem="iPp-TF-wkc" secondAttribute="centerX" id="mDX-Ff-Df3"/>
+                        <constraint firstAttribute="trailing" secondItem="eH7-Ad-OsQ" secondAttribute="trailing" constant="5" id="n8g-4j-rCi"/>
+                        <constraint firstAttribute="height" constant="140" id="n9P-pF-LAK"/>
+                        <constraint firstItem="44W-G5-dbD" firstAttribute="width" secondItem="iPp-TF-wkc" secondAttribute="width" id="uYX-NY-Hnb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iPp-TF-wkc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SZ2-o2-xYj"/>
+                <constraint firstItem="iPp-TF-wkc" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.9" id="ZrB-q0-wUG"/>
+                <constraint firstItem="iPp-TF-wkc" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dqz-B0-Hzf"/>
+            </constraints>
+            <point key="canvasLocation" x="-326" y="31"/>
+        </view>
+    </objects>
+</document>

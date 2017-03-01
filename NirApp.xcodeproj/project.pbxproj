@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BFE5E4B1E64292700D6B24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */; };
-		8BFE5E4D1E64292700D6B24D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4C1E64292700D6B24D /* ViewController.swift */; };
+		8BF3771A1E6597B500F04C03 /* MavenPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF377161E6597B500F04C03 /* MavenPro-Black.ttf */; };
+		8BF3771B1E6597B500F04C03 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF377171E6597B500F04C03 /* MavenPro-Bold.ttf */; };
+		8BF3771C1E6597B500F04C03 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF377181E6597B500F04C03 /* MavenPro-Medium.ttf */; };
+		8BF3771D1E6597B500F04C03 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF377191E6597B500F04C03 /* MavenPro-Regular.ttf */; };
+		8BF377201E659B0200F04C03 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3771F1E659B0200F04C03 /* InfoVC.swift */; };
+		8BF377221E65B5DE00F04C03 /* ParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF377211E65B5DE00F04C03 /* ParentVC.swift */; };
+		8BFE07BF1E667610006882E3 /* ManufacturerVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE07BE1E667610006882E3 /* ManufacturerVCTests.swift */; };
+		8BFE07C11E6677AB006882E3 /* ModelVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE07C01E6677AB006882E3 /* ModelVCTests.swift */; };
+		8BFE07C31E6677E6006882E3 /* InfoVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE07C21E6677E6006882E3 /* InfoVCTests.swift */; };
 		8BFE5E501E64292700D6B24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E4E1E64292700D6B24D /* Main.storyboard */; };
 		8BFE5E531E64292700D6B24D /* NirApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E511E64292700D6B24D /* NirApp.xcdatamodeld */; };
 		8BFE5E551E64292700D6B24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E541E64292700D6B24D /* Assets.xcassets */; };
 		8BFE5E581E64292700D6B24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */; };
 		8BFE5E631E64292700D6B24D /* NirAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E621E64292700D6B24D /* NirAppTests.swift */; };
 		8BFE5E6E1E64292700D6B24D /* NirAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E6D1E64292700D6B24D /* NirAppUITests.swift */; };
+		8BFE5E7F1E64297000D6B24D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E7E1E64297000D6B24D /* AppDelegate.swift */; };
+		8BFE5E821E6429A400D6B24D /* ManufacturerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E811E6429A400D6B24D /* ManufacturerVC.swift */; };
+		8BFE5E841E6429B000D6B24D /* ModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E831E6429B000D6B24D /* ModelVC.swift */; };
+		8BFE5E861E642B4F00D6B24D /* ManufacturerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E851E642B4F00D6B24D /* ManufacturerOperation.swift */; };
+		8BFE5E881E642CAF00D6B24D /* ManufacturerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E871E642CAF00D6B24D /* ManufacturerTVC.swift */; };
+		8BFE5E8B1E642DE100D6B24D /* ModelOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E891E642DE100D6B24D /* ModelOperation.swift */; };
+		8BFE5E8C1E642DE100D6B24D /* ModelTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E8A1E642DE100D6B24D /* ModelTVC.swift */; };
+		8BFE5E8F1E64303800D6B24D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E8E1E64303800D6B24D /* NetworkManager.swift */; };
+		8BFE5E921E64464400D6B24D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E911E64464400D6B24D /* Utility.swift */; };
+		8BFE5EBC1E64467D00D6B24D /* AppAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5E951E64467D00D6B24D /* AppAlertView.swift */; };
+		8BFE5EBE1E64467D00D6B24D /* AppAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5E981E64467D00D6B24D /* AppAlertView.xib */; };
+		8BFE5ECC1E64467D00D6B24D /* AppLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5EB11E64467D00D6B24D /* AppLoaderView.swift */; };
+		8BFE5ECE1E64467D00D6B24D /* AppLoaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFE5EB41E64467D00D6B24D /* AppLoaderView.xib */; };
+		8BFE5ED11E64467D00D6B24D /* ParentCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE5EBB1E64467D00D6B24D /* ParentCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BF377161E6597B500F04C03 /* MavenPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Black.ttf"; sourceTree = "<group>"; };
+		8BF377171E6597B500F04C03 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		8BF377181E6597B500F04C03 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		8BF377191E6597B500F04C03 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		8BF3771F1E659B0200F04C03 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		8BF377211E65B5DE00F04C03 /* ParentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentVC.swift; path = NirApp/ParentVC.swift; sourceTree = SOURCE_ROOT; };
+		8BFE07BE1E667610006882E3 /* ManufacturerVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerVCTests.swift; sourceTree = "<group>"; };
+		8BFE07C01E6677AB006882E3 /* ModelVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelVCTests.swift; sourceTree = "<group>"; };
+		8BFE07C21E6677E6006882E3 /* InfoVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVCTests.swift; sourceTree = "<group>"; };
 		8BFE5E471E64292700D6B24D /* NirApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NirApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BFE5E4C1E64292700D6B24D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BFE5E4F1E64292700D6B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BFE5E521E64292700D6B24D /* NirApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NirApp.xcdatamodel; sourceTree = "<group>"; };
 		8BFE5E541E64292700D6B24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +77,20 @@
 		8BFE5E691E64292700D6B24D /* NirAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NirAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFE5E6D1E64292700D6B24D /* NirAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NirAppUITests.swift; sourceTree = "<group>"; };
 		8BFE5E6F1E64292700D6B24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFE5E7E1E64297000D6B24D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFE5E811E6429A400D6B24D /* ManufacturerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerVC.swift; sourceTree = "<group>"; };
+		8BFE5E831E6429B000D6B24D /* ModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelVC.swift; sourceTree = "<group>"; };
+		8BFE5E851E642B4F00D6B24D /* ManufacturerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerOperation.swift; sourceTree = "<group>"; };
+		8BFE5E871E642CAF00D6B24D /* ManufacturerTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerTVC.swift; sourceTree = "<group>"; };
+		8BFE5E891E642DE100D6B24D /* ModelOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelOperation.swift; sourceTree = "<group>"; };
+		8BFE5E8A1E642DE100D6B24D /* ModelTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTVC.swift; sourceTree = "<group>"; };
+		8BFE5E8E1E64303800D6B24D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8BFE5E911E64464400D6B24D /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8BFE5E951E64467D00D6B24D /* AppAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAlertView.swift; sourceTree = "<group>"; };
+		8BFE5E991E64467D00D6B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AppAlertView.xib; sourceTree = "<group>"; };
+		8BFE5EB11E64467D00D6B24D /* AppLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLoaderView.swift; sourceTree = "<group>"; };
+		8BFE5EB51E64467D00D6B24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AppLoaderView.xib; sourceTree = "<group>"; };
+		8BFE5EBB1E64467D00D6B24D /* ParentCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BF377141E6597B500F04C03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BF377151E6597B500F04C03 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BF377151E6597B500F04C03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BF377161E6597B500F04C03 /* MavenPro-Black.ttf */,
+				8BF377171E6597B500F04C03 /* MavenPro-Bold.ttf */,
+				8BF377181E6597B500F04C03 /* MavenPro-Medium.ttf */,
+				8BF377191E6597B500F04C03 /* MavenPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8BF3771E1E659AF100F04C03 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3771F1E659B0200F04C03 /* InfoVC.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
 		8BFE5E3E1E64292700D6B24D = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +168,14 @@
 		8BFE5E491E64292700D6B24D /* NirApp */ = {
 			isa = PBXGroup;
 			children = (
-				8BFE5E4A1E64292700D6B24D /* AppDelegate.swift */,
-				8BFE5E4C1E64292700D6B24D /* ViewController.swift */,
-				8BFE5E4E1E64292700D6B24D /* Main.storyboard */,
+				8BF377141E6597B500F04C03 /* Resources */,
+				8BFE5E7D1E64297000D6B24D /* AppDelegate */,
+				8BFE5E931E64467D00D6B24D /* CustomUI */,
+				8BFE5E901E64462700D6B24D /* Utility */,
+				8BFE5E8D1E64301500D6B24D /* NetworkManager */,
+				8BFE5E7B1E64295F00D6B24D /* Manufacturer */,
+				8BFE5E801E64297C00D6B24D /* UI */,
 				8BFE5E541E64292700D6B24D /* Assets.xcassets */,
-				8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */,
 				8BFE5E591E64292700D6B24D /* Info.plist */,
 				8BFE5E511E64292700D6B24D /* NirApp.xcdatamodeld */,
 			);
@@ -114,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				8BFE5E621E64292700D6B24D /* NirAppTests.swift */,
+				8BFE07BE1E667610006882E3 /* ManufacturerVCTests.swift */,
+				8BFE07C01E6677AB006882E3 /* ModelVCTests.swift */,
+				8BFE07C21E6677E6006882E3 /* InfoVCTests.swift */,
 				8BFE5E641E64292700D6B24D /* Info.plist */,
 			);
 			path = NirAppTests;
@@ -126,6 +201,90 @@
 				8BFE5E6F1E64292700D6B24D /* Info.plist */,
 			);
 			path = NirAppUITests;
+			sourceTree = "<group>";
+		};
+		8BFE5E7B1E64295F00D6B24D /* Manufacturer */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E7C1E64295F00D6B24D /* Model */,
+				8BFE5E811E6429A400D6B24D /* ManufacturerVC.swift */,
+				8BFE5E851E642B4F00D6B24D /* ManufacturerOperation.swift */,
+				8BFE5E871E642CAF00D6B24D /* ManufacturerTVC.swift */,
+				8BF377211E65B5DE00F04C03 /* ParentVC.swift */,
+			);
+			path = Manufacturer;
+			sourceTree = "<group>";
+		};
+		8BFE5E7C1E64295F00D6B24D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BF3771E1E659AF100F04C03 /* Info */,
+				8BFE5E891E642DE100D6B24D /* ModelOperation.swift */,
+				8BFE5E8A1E642DE100D6B24D /* ModelTVC.swift */,
+				8BFE5E831E6429B000D6B24D /* ModelVC.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BFE5E7D1E64297000D6B24D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E7E1E64297000D6B24D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8BFE5E801E64297C00D6B24D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E4E1E64292700D6B24D /* Main.storyboard */,
+				8BFE5E561E64292700D6B24D /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8BFE5E8D1E64301500D6B24D /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E8E1E64303800D6B24D /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		8BFE5E901E64462700D6B24D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E911E64464400D6B24D /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		8BFE5E931E64467D00D6B24D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E941E64467D00D6B24D /* AppAlertView */,
+				8BFE5EAF1E64467D00D6B24D /* AppLoader */,
+				8BFE5EBB1E64467D00D6B24D /* ParentCustomView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		8BFE5E941E64467D00D6B24D /* AppAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5E951E64467D00D6B24D /* AppAlertView.swift */,
+				8BFE5E981E64467D00D6B24D /* AppAlertView.xib */,
+			);
+			path = AppAlertView;
+			sourceTree = "<group>";
+		};
+		8BFE5EAF1E64467D00D6B24D /* AppLoader */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5EB11E64467D00D6B24D /* AppLoaderView.swift */,
+				8BFE5EB41E64467D00D6B24D /* AppLoaderView.xib */,
+			);
+			path = AppLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +376,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 8BFE5E3E1E64292700D6B24D;
 			productRefGroup = 8BFE5E481E64292700D6B24D /* Products */;
@@ -235,8 +395,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFE5ECE1E64467D00D6B24D /* AppLoaderView.xib in Resources */,
+				8BF3771B1E6597B500F04C03 /* MavenPro-Bold.ttf in Resources */,
 				8BFE5E581E64292700D6B24D /* LaunchScreen.storyboard in Resources */,
+				8BFE5EBE1E64467D00D6B24D /* AppAlertView.xib in Resources */,
 				8BFE5E551E64292700D6B24D /* Assets.xcassets in Resources */,
+				8BF3771C1E6597B500F04C03 /* MavenPro-Medium.ttf in Resources */,
+				8BF3771A1E6597B500F04C03 /* MavenPro-Black.ttf in Resources */,
+				8BF3771D1E6597B500F04C03 /* MavenPro-Regular.ttf in Resources */,
 				8BFE5E501E64292700D6B24D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +428,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFE5E4D1E64292700D6B24D /* ViewController.swift in Sources */,
+				8BFE5E921E64464400D6B24D /* Utility.swift in Sources */,
+				8BFE5E8F1E64303800D6B24D /* NetworkManager.swift in Sources */,
+				8BF377221E65B5DE00F04C03 /* ParentVC.swift in Sources */,
+				8BFE5E861E642B4F00D6B24D /* ManufacturerOperation.swift in Sources */,
+				8BFE5E7F1E64297000D6B24D /* AppDelegate.swift in Sources */,
+				8BF377201E659B0200F04C03 /* InfoVC.swift in Sources */,
 				8BFE5E531E64292700D6B24D /* NirApp.xcdatamodeld in Sources */,
-				8BFE5E4B1E64292700D6B24D /* AppDelegate.swift in Sources */,
+				8BFE5ED11E64467D00D6B24D /* ParentCustomView.swift in Sources */,
+				8BFE5ECC1E64467D00D6B24D /* AppLoaderView.swift in Sources */,
+				8BFE5E8B1E642DE100D6B24D /* ModelOperation.swift in Sources */,
+				8BFE5E841E6429B000D6B24D /* ModelVC.swift in Sources */,
+				8BFE5E881E642CAF00D6B24D /* ManufacturerTVC.swift in Sources */,
+				8BFE5E821E6429A400D6B24D /* ManufacturerVC.swift in Sources */,
+				8BFE5E8C1E642DE100D6B24D /* ModelTVC.swift in Sources */,
+				8BFE5EBC1E64467D00D6B24D /* AppAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFE07C31E6677E6006882E3 /* InfoVCTests.swift in Sources */,
 				8BFE5E631E64292700D6B24D /* NirAppTests.swift in Sources */,
+				8BFE07C11E6677AB006882E3 /* ModelVCTests.swift in Sources */,
+				8BFE07BF1E667610006882E3 /* ManufacturerVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +495,22 @@
 				8BFE5E571E64292700D6B24D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFE5E981E64467D00D6B24D /* AppAlertView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE5E991E64467D00D6B24D /* Base */,
+			);
+			name = AppAlertView.xib;
+			sourceTree = "<group>";
+		};
+		8BFE5EB41E64467D00D6B24D /* AppLoaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFE5EB51E64467D00D6B24D /* Base */,
+			);
+			name = AppLoaderView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = NirAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NirAppUITests;
@@ -509,6 +707,7 @@
 				8BFE5E741E64292700D6B24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BFE5E751E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +716,7 @@
 				8BFE5E771E64292700D6B24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BFE5E781E64292700D6B24D /* Build configuration list for PBXNativeTarget "NirAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +725,7 @@
 				8BFE5E7A1E64292700D6B24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
